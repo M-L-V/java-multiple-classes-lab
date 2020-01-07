@@ -19,5 +19,6 @@ public class BusStop {
     }
 
     public void addPersonToQueue(Person person) {
+        this.queue.add(person);
     }
 }
