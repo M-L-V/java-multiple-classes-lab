@@ -10,5 +10,11 @@ public class BusStop {
         this.queue = new ArrayList<Person>();
     }
 
+    public String getName() {
+        return this.name;
+    }
 
+    public int countQueue() {
+        return this.queue.size();
+    }
 }
