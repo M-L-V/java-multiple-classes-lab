@@ -30,4 +30,9 @@ public class Bus {
           passengers.add(person);
          }
     }
+
+    public Person removePassenger() {
+
+        return this.passengers.remove(0);
+    }
 }
