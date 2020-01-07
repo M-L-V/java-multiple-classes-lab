@@ -17,6 +17,11 @@ public class Bus {
     }
 
     public int getCapacity() {
-        return this.capacity; 
+        return this.capacity;
+    }
+
+
+    public int passengerCount() {
+        return passengers.size(); 
     }
 }
