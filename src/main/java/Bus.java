@@ -12,4 +12,11 @@ public class Bus {
         this.passengers = new ArrayList<Person>();
     }
 
+    public String getDestination() {
+        return this.destination;
+    }
+
+    public int getCapacity() {
+        return this.capacity; 
+    }
 }
