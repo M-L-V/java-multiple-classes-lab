@@ -29,4 +29,13 @@ public class BusStopTest {
         busStop.addPersonToQueue(person);
         assertEquals(1, busStop.countQueue());
     }
+
+    @Test
+    public void canRemovePersonFromQueue(){
+        busStop.addPersonToQueue(person);
+        busStop.addPersonToQueue(person);
+        busStop.addPersonToQueue(person);
+        busStop.removePersonFromQueue();
+        assertEquals(2, busStop.countQueue());
+    }
 }
