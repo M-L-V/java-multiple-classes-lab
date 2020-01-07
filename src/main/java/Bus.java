@@ -20,8 +20,11 @@ public class Bus {
         return this.capacity;
     }
 
-
     public int passengerCount() {
-        return passengers.size(); 
+        return passengers.size();
+    }
+
+    public void addPassenger(Person person) {
+        passengers.add(person);
     }
 }
